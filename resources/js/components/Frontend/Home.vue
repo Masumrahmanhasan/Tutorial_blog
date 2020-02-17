@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="slider"></div>
+        <slider-view></slider-view>
         <section class="blog-area section">
             <div class="container">
 
@@ -10,9 +10,9 @@
                         <div class="card h-100">
                             <div class="single-post post-style-1">
 
-                                <div class="blog-image"><img src="images/marion-michele-330691.jpg" alt="Blog Image"></div>
+                                <div class="blog-image"><img src="/frontend/images/marion-michele-330691.jpg" alt="Blog Image"></div>
 
-                                <a class="avatar" href="#"><img src="images/icons8-team-355979.jpg" alt="Profile Image"></a>
+                                <a class="avatar" href="#"><img src="/frontend/images/icons8-team-355979.jpg" alt="Profile Image"></a>
 
                                 <div class="blog-info">
 
@@ -34,9 +34,9 @@
                         <div class="card h-100">
                             <div class="single-post post-style-1">
 
-                                <div class="blog-image"><img src="images/audrey-jackson-260657.jpg" alt="Blog Image"></div>
+                                <div class="blog-image"><img src="/frontend/images/audrey-jackson-260657.jpg" alt="Blog Image"></div>
 
-                                <a class="avatar" href="#"><img src="images/icons8-team-355979.jpg" alt="Profile Image"></a>
+                                <a class="avatar" href="#"><img src="/frontend/images/icons8-team-355979.jpg" alt="Profile Image"></a>
 
                                 <div class="blog-info">
                                     <h4 class="title"><a href="#"><b>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex
@@ -58,9 +58,9 @@
                         <div class="card h-100">
                             <div class="single-post post-style-1">
 
-                                <div class="blog-image"><img src="images/pexels-photo-370474.jpeg" alt="Blog Image"></div>
+                                <div class="blog-image"><img src="/frontend/images/pexels-photo-370474.jpeg" alt="Blog Image"></div>
 
-                                <a class="avatar" href="#"><img src="images/averie-woodard-319832.jpg" alt="Profile Image"></a>
+                                <a class="avatar" href="#"><img src="/frontend/images/averie-woodard-319832.jpg" alt="Profile Image"></a>
 
                                 <h4 class="title"><a href="#"><b>How Did Van Gogh's Turbulent Mind Depict One of the Most Complex
                                     Concepts in Physics?</b></a></h4>
@@ -308,8 +308,7 @@
 
             </div><!-- container -->
         </section>
-    </div>
-    
+    </div>    
 </template>
 <script>
 
