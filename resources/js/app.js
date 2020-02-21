@@ -4,6 +4,7 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+Vue.component('login-modal', require('./components/Frontend/Partials/LoginModal.vue').default);
 Vue.component('slider-view', require('./components/Frontend/Partials/Slider.vue').default);
 Vue.component('navbar-view', require('./components/Frontend/Partials/Navbar.vue').default);
 Vue.component('footer-view', require('./components/Frontend/Partials/Footer.vue').default);

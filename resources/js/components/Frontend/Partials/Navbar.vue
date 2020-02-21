@@ -22,11 +22,15 @@
 				</form>
 			</div>
 		</div><!-- conatiner -->
+
 	</header>
+	<login-modal></login-modal>l
     </div>
+    
 </template>
 
 <script>
+import LoginModal from '../Partials/LoginModal.vue';
 	export default {
 		data(){
 			return {
@@ -34,7 +38,9 @@
 			}
 		},
 		methods: {
-			
+			loginModal(){
+				$('#loginModal').modal('show');
+			}
 		}
 	}
 </script>
