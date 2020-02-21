@@ -2333,7 +2333,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {};
+  },
+  methods: {}
+});
 
 /***/ }),
 
@@ -2346,6 +2352,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
 //
 //
 //
@@ -38699,69 +38707,109 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c("header", [
+      _c(
+        "div",
+        { staticClass: "container position-relative no-side-padding" },
+        [
+          _vm._m(0),
+          _vm._v(" "),
+          _vm._m(1),
+          _vm._v(" "),
+          _c(
+            "ul",
+            {
+              staticClass: "main-menu visible-on-click",
+              attrs: { id: "main-menu" }
+            },
+            [
+              _vm._m(2),
+              _vm._v(" "),
+              _vm._m(3),
+              _vm._v(" "),
+              _vm._m(4),
+              _vm._v(" "),
+              _c("li", [
+                _c(
+                  "a",
+                  { attrs: { href: "#" }, on: { click: _vm.loginModal } },
+                  [_vm._v("Login")]
+                )
+              ]),
+              _vm._v(" "),
+              _vm._m(5)
+            ]
+          ),
+          _vm._v(" "),
+          _vm._m(6)
+        ]
+      )
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("header", [
-        _c(
-          "div",
-          { staticClass: "container-fluid position-relative no-side-padding" },
-          [
-            _c("a", { staticClass: "logo", attrs: { href: "#" } }, [
-              _c("img", {
-                attrs: { src: "images/logo.png", alt: "Logo Image" }
-              })
-            ]),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "menu-nav-icon",
-                attrs: { "data-nav-menu": "#main-menu" }
-              },
-              [_c("i", { staticClass: "ion-navicon" })]
-            ),
-            _vm._v(" "),
-            _c(
-              "ul",
-              {
-                staticClass: "main-menu visible-on-click",
-                attrs: { id: "main-menu" }
-              },
-              [
-                _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Home")])]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "#" } }, [_vm._v("Categories")])
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "#" } }, [_vm._v("Features")])
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "src-area" }, [
-              _c("form", [
-                _c(
-                  "button",
-                  { staticClass: "src-btn", attrs: { type: "submit" } },
-                  [_c("i", { staticClass: "ion-ios-search-strong" })]
-                ),
-                _vm._v(" "),
-                _c("input", {
-                  staticClass: "src-input",
-                  attrs: { type: "text", placeholder: "Type of search" }
-                })
-              ])
-            ])
-          ]
-        )
+    return _c("a", { staticClass: "logo", attrs: { href: "#" } }, [
+      _c("img", {
+        attrs: { src: "/frontend/images/mylogo.png", alt: "Logo Image" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "menu-nav-icon",
+        attrs: { "data-nav-menu": "#main-menu" }
+      },
+      [_c("i", { staticClass: "ion-navicon" })]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Home")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Categories")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Features")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Register")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "src-area" }, [
+      _c("form", [
+        _c("button", { staticClass: "src-btn", attrs: { type: "submit" } }, [
+          _c("i", { staticClass: "ion-ios-search-strong" })
+        ]),
+        _vm._v(" "),
+        _c("input", {
+          staticClass: "src-input",
+          attrs: { type: "text", placeholder: "Search Tutorials" }
+        })
       ])
     ])
   }
@@ -38803,8 +38851,8 @@ var staticRenderFns = [
             attrs: {
               "data-slide-effect": "slide",
               "data-autoheight": "false",
-              "data-swiper-speed": "500",
-              "data-swiper-autoplay": "10000",
+              "data-swiper-speed": "400",
+              "data-swiper-autoplay": "3000",
               "data-swiper-margin": "0",
               "data-swiper-slides-per-view": "4",
               "data-swiper-breakpoints": "true",
@@ -38830,7 +38878,7 @@ var staticRenderFns = [
                     _c("div", { staticClass: "category" }, [
                       _c("div", { staticClass: "display-table center-text" }, [
                         _c("div", { staticClass: "display-table-cell" }, [
-                          _c("h3", [_c("b", [_vm._v("BEAUTY")])])
+                          _c("h3", [_c("b", [_vm._v("Laravel")])])
                         ])
                       ])
                     ])
@@ -38855,7 +38903,7 @@ var staticRenderFns = [
                     _c("div", { staticClass: "category" }, [
                       _c("div", { staticClass: "display-table center-text" }, [
                         _c("div", { staticClass: "display-table-cell" }, [
-                          _c("h3", [_c("b", [_vm._v("SPORT")])])
+                          _c("h3", [_c("b", [_vm._v("Design")])])
                         ])
                       ])
                     ])
@@ -38880,7 +38928,7 @@ var staticRenderFns = [
                     _c("div", { staticClass: "category" }, [
                       _c("div", { staticClass: "display-table center-text" }, [
                         _c("div", { staticClass: "display-table-cell" }, [
-                          _c("h3", [_c("b", [_vm._v("HEALTH")])])
+                          _c("h3", [_c("b", [_vm._v("Vue Js")])])
                         ])
                       ])
                     ])
@@ -38905,7 +38953,7 @@ var staticRenderFns = [
                     _c("div", { staticClass: "category" }, [
                       _c("div", { staticClass: "display-table center-text" }, [
                         _c("div", { staticClass: "display-table-cell" }, [
-                          _c("h3", [_c("b", [_vm._v("DESIGN")])])
+                          _c("h3", [_c("b", [_vm._v("PHP")])])
                         ])
                       ])
                     ])
@@ -38930,7 +38978,7 @@ var staticRenderFns = [
                     _c("div", { staticClass: "category" }, [
                       _c("div", { staticClass: "display-table center-text" }, [
                         _c("div", { staticClass: "display-table-cell" }, [
-                          _c("h3", [_c("b", [_vm._v("MUSIC")])])
+                          _c("h3", [_c("b", [_vm._v("Packages")])])
                         ])
                       ])
                     ])
@@ -38955,7 +39003,7 @@ var staticRenderFns = [
                     _c("div", { staticClass: "category" }, [
                       _c("div", { staticClass: "display-table center-text" }, [
                         _c("div", { staticClass: "display-table-cell" }, [
-                          _c("h3", [_c("b", [_vm._v("MOVIE")])])
+                          _c("h3", [_c("b", [_vm._v("CodeIgnitor")])])
                         ])
                       ])
                     ])
@@ -39058,7 +39106,7 @@ function normalizeComponent (
       // for template-only hot-reload because in that case the render fn doesn't
       // go through the normalizer
       options._injectStyles = hook
-      // register for functioal component in vue file
+      // register for functional component in vue file
       var originalRender = options.render
       options.render = function renderWithStyleInjection (h, context) {
         hook.call(context)
@@ -51491,8 +51539,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /opt/lampp/htdocs/laravel/Lara_vue/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /opt/lampp/htdocs/laravel/Lara_vue/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\xampp\htdocs\laravel\Tutorial_blog\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\xampp\htdocs\laravel\Tutorial_blog\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

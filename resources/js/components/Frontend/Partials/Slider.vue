@@ -2,18 +2,20 @@
     <div>
         <div class="main-slider">
             <div class="swiper-container position-static" data-slide-effect="slide" data-autoheight="false"
-                data-swiper-speed="500" data-swiper-autoplay="10000" data-swiper-margin="0" data-swiper-slides-per-view="4"
-                data-swiper-breakpoints="true" data-swiper-loop="true" >
+                data-swiper-speed="400" data-swiper-autoplay="3000" data-swiper-margin="0" data-swiper-slides-per-view="4"
+                data-swiper-breakpoints="true" data-swiper-loop="true">
                 <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
                         <a class="slider-category" href="#">
-                            <div class="blog-image"><img src="/frontend/images/category-1-400x250.jpg" alt="Blog Image"></div>
+                            <div class="blog-image"><img src="/frontend/images/category-1-400x250.jpg" alt="Blog Image">
+
+                            </div>
 
                             <div class="category">
                                 <div class="display-table center-text">
                                     <div class="display-table-cell">
-                                        <h3><b>BEAUTY</b></h3>
+                                        <h3><b>Laravel</b></h3>
                                     </div>
                                 </div>
                             </div>
@@ -28,7 +30,7 @@
                             <div class="category">
                                 <div class="display-table center-text">
                                     <div class="display-table-cell">
-                                        <h3><b>SPORT</b></h3>
+                                        <h3><b>Design</b></h3>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +45,7 @@
                             <div class="category">
                                 <div class="display-table center-text">
                                     <div class="display-table-cell">
-                                        <h3><b>HEALTH</b></h3>
+                                        <h3><b>Vue Js</b></h3>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +60,7 @@
                             <div class="category">
                                 <div class="display-table center-text">
                                     <div class="display-table-cell">
-                                        <h3><b>DESIGN</b></h3>
+                                        <h3><b>PHP</b></h3>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +75,7 @@
                             <div class="category">
                                 <div class="display-table center-text">
                                     <div class="display-table-cell">
-                                        <h3><b>MUSIC</b></h3>
+                                        <h3><b>Packages</b></h3>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +90,7 @@
                             <div class="category">
                                 <div class="display-table center-text">
                                     <div class="display-table-cell">
-                                        <h3><b>MOVIE</b></h3>
+                                        <h3><b>CodeIgnitor</b></h3>
                                     </div>
                                 </div>
                             </div>
