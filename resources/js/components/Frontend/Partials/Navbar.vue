@@ -1,7 +1,7 @@
 <template>
     <div>
         <header>
-		<div class="container position-relative no-side-padding">
+		<div class="container-fluid position-relative no-side-padding">
 
 			<a href="#" class="logo"><img src="/frontend/images/mylogo.png" alt="Logo Image"></a>
 
@@ -22,9 +22,9 @@
 				</form>
 			</div>
 		</div><!-- conatiner -->
-
+	<login-modal></login-modal>
 	</header>
-	<login-modal></login-modal>l
+	
     </div>
     
 </template>
