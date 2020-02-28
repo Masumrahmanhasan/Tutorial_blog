@@ -7063,7 +7063,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n.modal-content{\n\twidth: 400px !important;\n\tleft: 8%;\n}\n.modal-dialog-centered {\n  display: flex;\n  align-items: center;\n  min-height: calc(100% - 1rem);\n}\n.modal-dialog-centered::before {\n  display: block;\n  height: calc(100vh - 1rem);\n  content: \"\";\n}\n\n", ""]);
+exports.push([module.i, "\n.modal-content{\r\n\twidth: 400px !important;\r\n\tleft: 8%;\n}\n.modal-dialog-centered {\r\n  display: flex;\r\n  align-items: center;\r\n  min-height: calc(100% - 1rem);\n}\n.modal-dialog-centered::before {\r\n  display: block;\r\n  height: calc(100vh - 1rem);\r\n  content: \"\";\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -39444,7 +39444,7 @@ var staticRenderFns = [
                     staticClass: "modal-title",
                     attrs: { id: "loginModalTitle" }
                   },
-                  [_vm._v("Modal title")]
+                  [_vm._v("Sign in For more")]
                 ),
                 _vm._v(" "),
                 _c(
@@ -39540,7 +39540,7 @@ var render = function() {
       [
         _c(
           "div",
-          { staticClass: "container-fluid position-relative no-side-padding" },
+          { staticClass: "container position-relative no-side-padding" },
           [
             _vm._m(0),
             _vm._v(" "),
@@ -52460,8 +52460,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /opt/lampp/htdocs/laravel/Tutorial_blog/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /opt/lampp/htdocs/laravel/Tutorial_blog/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\xampp\htdocs\laravel\Tutorial_blog\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\xampp\htdocs\laravel\Tutorial_blog\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
