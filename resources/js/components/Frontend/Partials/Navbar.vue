@@ -1,7 +1,7 @@
 <template>
     <div>
         <header>
-		<div class="container-fluid position-relative no-side-padding">
+		<div class="container position-relative no-side-padding">
 
 			<a href="#" class="logo"><img src="/frontend/images/mylogo.png" alt="Logo Image"></a>
 
